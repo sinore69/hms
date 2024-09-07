@@ -1,8 +1,9 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Bed() {
   return (
-    <div className="flex justify-center p-1 text-white border-2">Bed</div>
+    <Link href={"/bed"}  className="flex justify-center p-1 text-white border-2">Bed</Link>
   )
 }
 

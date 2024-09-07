@@ -10,16 +10,16 @@ import Inventory from "./Inventory";
 import Bed from "./Bed";
 
 function sidebar() {
-  return <div className="h-full w-56 bg-slate-600">
+  return <div className="h-full w-56 bg-slate-600 flex flex-col gap-y-1">
     <Dashboard></Dashboard>
     <Department></Department>
     <Doctor></Doctor>
     <Bed></Bed>
     <Patients></Patients>
-    <Schedule></Schedule>
     <Appointment></Appointment>
     <Pharmacy></Pharmacy>
     <Inventory></Inventory>
+    <Schedule></Schedule>
   </div>;
 }
 
